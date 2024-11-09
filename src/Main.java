@@ -18,7 +18,7 @@ public class Main {
      }
 
         System.out.println("venkatesh this is demo one please watch carefully new one tryied");
-        System.out.println("new pull data");
+        System.out.println("new push data one handle with careg");
 
     }
 }
