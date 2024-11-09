@@ -5,7 +5,17 @@ public class Main {
 
 
         System.out.println("venkatesh this is demo one please watch carefully");
+     String word="Swiss";
+     int[]  charCout=new int[26];
+     for( char ch:word.toCharArray()){
+         charCout[ch- 'a']++;
+     }
 
+     for(char ch:word.toCharArray()){
+         if(charCout[ch-'a']==1){
+             System.out.println("chat"+ch);
+         }
+     }
 
 
     }
